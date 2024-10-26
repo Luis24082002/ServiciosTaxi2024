@@ -116,32 +116,33 @@
         <section id="contactanos"></section>
         <h2>Contactanos</h2>
         
-      <form>
-        <fieldset>
-          <legend>Completa la Informacion</legend>
-          <div>
-            <label for="txtnombre">Nombre Completo:</label>
-            <input type="text" name="txtnombre" id="txtnombre" />
-          </div>
-          <div>
-            <label for="txttelefono"> Telefono:</label>
-            <input type="tel" name="txttelefono" id="txttelefono" />
-          </div>
-          <div>
-            <label for="txtemail"> Email:</label>
-            <input type="email" name="txtemail" id="txtemail" />
-          </div>
-          <div>
-            <label for="txtmensaje"> Mensaje:</label>
-            <textarea name="txtmensaje" id="txtmensaje" rows="10"></textarea>
-            
-          </div>
+        <form>
+          <fieldset>
+            <legend>Completa la Informacion</legend>
+            <div>
+              <label for="txtnombre">Nombre Completo:</label>
+              <input type="text" name="txtnombre" id="txtnombre" required minlength="3" maxlength="50"/>
+            </div>
+            <div>
+              <label for="txttelefono"> Telefono:</label>
+              <input type="tel" name="txttelefono" id="txttelefono"required min="8" max="12"/>
+            </div>
+            <div>
+              <label for="txtemail"> Email:</label>
+              <input type="email" name="txtemail" id="txtemail" required @ />
+            </div>
+            <div>
+              <label for="txtmensaje"> Mensaje:</label>
+              <textarea name="txtmensaje" id="txtmensaje" required minlength="5" maxlength="55" rows="10"></textarea>
+              
+            </div>
           <input type="submit" value="Enviar" />
+          <input type="reset"value= "Cancelar"/>
         </fieldset>
       </form>
       </section>
 
-      <h2>Contactos</h2>
+      <h2>Contactos</h2>  
       <section id="contactos"></section>
       <p>26663854</p>
       <p> luisgo0824@gmail.com</p>
@@ -149,4 +150,5 @@
       <p>Todos Los Derechos Reservados. LCDG</p>
     </footer>
   </body>
+  
 </html> 
