@@ -71,3 +71,109 @@ body {
   background-size: 520px;
   color: var(--rojo);
 }
+.titulo_principaldos {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--anaranjado);
+}
+.navegacion_contactos a {
+  color: var(--anaranjado);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.navegacion_contactos a:hover {
+  background-color: var(--negro);
+}
+
+.navegacion_contactos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: linear-gradient(
+    to left,
+    var(--gris) 30%,
+    var(--blanco) 100%
+  );
+  border-radius: 1rem;
+}
+@media (min-width: 680px) {
+  .navegacion_contactos {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.titulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--anaranjado);
+}
+.navegacion_sobrenosotros a {
+  color: var(--anaranjado);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+.navegacion_sobrenosotros a:hover {
+  background-color: var(--negro);
+}
+
+.navegacion_sobrenosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: linear-gradient(
+    to left,
+    var(--gris) 30%,
+    var(--blanco) 100%
+  );
+  border-radius: 1rem;
+}
+@media (min-width: 680px) {
+  .navegacion_sobrenosotros {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.titulo_cliente {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--anaranjado);
+}
+.navegacion_cliente a {
+  color: var(--anaranjado);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+.navegacion_cliente a:hover {
+  background-color: var(--negro);
+}
+
+.navegacion_cliente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-image: linear-gradient(
+    to left,
+    var(--gris) 30%,
+    var(--blanco) 100%
+  );
+  border-radius: 1rem;
+}
+@media (min-width: 680px) {
+  .navegacion_cliente {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
